@@ -458,12 +458,12 @@
 
                     <%
                         Document d = new Document(PageSize.A4);
-                         OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
-                        //OutputStream file = new FileOutputStream("PDF/Report.pdf");
+                       //  OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
+                        OutputStream file = new FileOutputStream("PDF/Report.pdf");
                         PdfWriter.getInstance(d, file);
                         d.open();
-                           Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
-                        //Image image1 = Image.getInstance("src/logo.jpg");
+                         //  Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
+                        Image image1 = Image.getInstance("src/logo.jpg");
                         image1.setAlignment(Element.ALIGN_LEFT);
                         d.add(image1);
                         float[] columnWidths = new float[]{40f, 40f, 40f, 40f, 40f, 40f, 40f, 40f};
@@ -479,8 +479,8 @@
                         table.addCell("Sales in " + monthselect + "");
                         table.addCell("No of Bills in " + monthselect + "");
                         table.addCell("Avg Sales in " + monthselect + " ");
- FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
-                       // FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
+ //FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
+                        FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
                         HSSFWorkbook workbook = new HSSFWorkbook();
                         HSSFSheet sheet = workbook.createSheet("New Sheet");
                         HSSFRow row = sheet.createRow((short) 0);
@@ -639,12 +639,12 @@
                         </tr>
                         <%
                             Document d = new Document(PageSize.A4);
-                             OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
-                            //OutputStream file = new FileOutputStream("PDF/Report.pdf");
+                             //OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
+                            OutputStream file = new FileOutputStream("PDF/Report.pdf");
                             PdfWriter.getInstance(d, file);
                             d.open();
-                            Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
-                            //Image image1 = Image.getInstance("src/logo.jpg");
+                           // Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
+                           Image image1 = Image.getInstance("src/logo.jpg");
                             image1.setAlignment(Element.ALIGN_LEFT);
                             d.add(image1);
                             float[] columnWidths = new float[]{40f, 40f, 40f, 40f, 40f};
@@ -657,8 +657,8 @@
                             table.addCell("Sales in " + V_Pev_mon_name + "");
                             table.addCell("No of Bills in " + V_Pev_mon_name + "");
                             table.addCell("Avg Sales in " + V_Pev_mon_name + " ");
-FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
-                           // FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
+      //FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
+                            FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
                             HSSFWorkbook workbook = new HSSFWorkbook();
                             HSSFSheet sheet = workbook.createSheet("New Sheet");
                             HSSFRow row = sheet.createRow((short) 0);
@@ -865,12 +865,12 @@ FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBe
 
                             <%
                                 Document d = new Document(PageSize.A4);
-                                OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
-                              //  OutputStream file = new FileOutputStream("PDF/Report.pdf");
+                               // OutputStream file = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.pdf");
+                                OutputStream file = new FileOutputStream("PDF/Report.pdf");
                                 PdfWriter.getInstance(d, file);
                                 d.open();
-                                Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
-                                //Image image1 = Image.getInstance("src/logo.jpg");
+                               // Image image1 = Image.getInstance("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/src/logo.jpg");
+                                Image image1 = Image.getInstance("src/logo.jpg");
                                 image1.setAlignment(Element.ALIGN_LEFT);
                                 d.add(image1);
                                 float[] columnWidths = new float[]{40f, 40f, 40f, 40f, 40f, 40f, 40f, 40f};
@@ -886,8 +886,8 @@ FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBe
                                 table.addCell("Sales in " + monthselect + "");
                                 table.addCell("No of Bills in " + monthselect + "");
                                 table.addCell("Avg Sales in " + monthselect + "");
-                                  FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
-                                //FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
+                                 // FileOutputStream fileOut = new FileOutputStream("/home/rspl-laxmeechandola/NetBeansProjects/99AR_dashdb/web/PDF/Report.xls");
+                                FileOutputStream fileOut = new FileOutputStream("PDF/Report.xls");
                                 HSSFWorkbook workbook = new HSSFWorkbook();
                                 HSSFSheet sheet = workbook.createSheet("New Sheet");
                                 HSSFRow row = sheet.createRow((short) 0);
