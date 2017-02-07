@@ -8,8 +8,6 @@ contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <%@ page import=" com.sendgrid.*"%>
 
 
-
-
 <%@ page import="java.io.BufferedReader"%>
 <%@ page import="java.io.InputStreamReader"%>
 <%@ page import="java.lang.Object"%>
